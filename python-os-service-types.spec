@@ -9,7 +9,7 @@ Summary:	Python library for consuming OpenStack sevice-types-authority data
 Summary(pl.UTF-8):	Biblioteka Pythona do konsumowania danych OpenStack sevice-types-authority
 Name:		python-os-service-types
 Version:	1.7.0
-Release:	3
+Release:	4
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/os-service-types/
