@@ -3,13 +3,14 @@
 %bcond_without	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests (incomplete dependencies)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-os-service-types.spec)
 
 Summary:	Python library for consuming OpenStack sevice-types-authority data
 Summary(pl.UTF-8):	Biblioteka Pythona do konsumowania danych OpenStack sevice-types-authority
 Name:		python-os-service-types
+# keep 1.7.x here for python2 support
 Version:	1.7.0
-Release:	4
+Release:	5
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/os-service-types/
